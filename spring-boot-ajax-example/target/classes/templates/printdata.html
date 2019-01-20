@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Spring Boot ajax example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+	<h1>ABC PRINT PAGE</h1>
+	<label id="testData"></label>
+
+	<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script type="text/javascript">  
+		jQuery(document).ready(
+				function(event) {
+					console.log($.parseJSON(sessionStorage
+							.getItem("datafromsearch")));
+					var dataTest = $('#testData').text(
+							sessionStorage.getItem("datafromsearch"));
+					// your code here
+				});
+	</script>
+</body>
+</html>
