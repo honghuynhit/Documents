@@ -40,10 +40,10 @@ function fire_ajax_submit() {
 			alert("error");
 		}
 	});
+}
 
+function thangCho() {
 	var dataSession = $('#feedback').val();
 	sessionStorage.setItem('datafromsearch', dataSession);
-	$('#btn_print').click(function() {
-		window.open(window.location.host + '/printdata', '_blank');
-	});
+	window.open('http://localhost:8080/printdata');
 }
