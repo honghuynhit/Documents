@@ -41,17 +41,9 @@ function fire_ajax_submit() {
 		}
 	});
 
+	var dataSession = $('#feedback').val();
+	sessionStorage.setItem('datafromsearch', dataSession);
 	$('#btn_print').click(function() {
-		var url = window.location.host + '/printdata';
-		redirect_blank(url);
+		window.open(window.location.host + '/printdata', '_blank');
 	});
-
-	function redirect_blank(url) {
-		var dataSession = $('#feedback').val();
-		sessionStorage.setItem('datafromsearch', dataSession);
-		var a = document.createElement('a');
-		a.target = "_blank";
-		a.href = url;
-		a.click();
-	}
 }
