@@ -1,0 +1,26 @@
+{
+  "name": "package.js",
+  "version": "1.0.0",
+  "description": "Documents",
+  "main": "Addition.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honghuynhit/learnnodejs.git"
+  },
+  "keywords": [
+    "learnnodejs"
+  ],
+  "author": "huynhdh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honghuynhit/learnnodejs/issues"
+  },
+  "homepage": "https://github.com/honghuynhit/learnnodejs#readme"
+}
