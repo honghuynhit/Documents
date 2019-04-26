@@ -1,3 +1,9 @@
+/*
+ * @Author: honghuynhit 
+ * @Date: 2019-04-26 17:26:26 
+ * @Last Modified by:   honghuynhit 
+ * @Last Modified time: 2019-04-26 17:26:26 
+ */
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
