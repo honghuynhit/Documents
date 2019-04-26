@@ -1,3 +1,10 @@
+/*
+ * @Author: huynhdh 
+ * @Date: 2019-04-26 17:18:00 
+ * @Last Modified by:   huynhdh 
+ * @Last Modified time: 2019-04-26 17:18:00 
+ */
+
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
