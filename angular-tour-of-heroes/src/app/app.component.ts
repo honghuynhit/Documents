@@ -1,8 +1,8 @@
 /*
- * @Author: huynhdh 
- * @Date: 2019-04-26 17:18:00 
- * @Last Modified by:   huynhdh 
- * @Last Modified time: 2019-04-26 17:18:00 
+ * @Author: honghuynhit 
+ * @Date: 2019-04-26 17:24:58 
+ * @Last Modified by:   honghuynhit 
+ * @Last Modified time: 2019-04-26 17:24:58 
  */
 
 import { Component } from '@angular/core';
