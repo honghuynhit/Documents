@@ -14,11 +14,25 @@
         </p>
     </div>
     <div class="form-group">
-        <button (click)="updateEmail()" class="btn btn-dark">Update Email</button>
+        <button (click)="addContact()" class="btn btn-primary">Add Contact</button>
+        <button (click)="updateEmail()" class="btn btn-primary">Update Email</button>
         <button (click)="resetEmail()" class="btn btn-dark">Reset Email</button>
+        <button (click)="resetList()" class="btn btn-dark">Reset List</button>
     </div>
 
+    <div>
+        <table>
+            <thead>
+                <th>#ID</th>
+                <th>Email</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let contact of listContact">
+                    <td>{{contact.id}}</td>
+                    <td>{{contact.email}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
-
-
 <router-outlet></router-outlet>
